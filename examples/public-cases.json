@@ -1,0 +1,67 @@
+[
+  {
+    "issue_url": "https://github.com/Kozea/WeasyPrint/issues/2903",
+    "source_url": "https://github.com/user-attachments/files/31608898/sample.html",
+    "author": "BartCardan",
+    "kind": "original_reporter_attachment",
+    "reported_problem": "logical table/list tags fragmented at page breaks",
+    "use": "positive public original",
+    "sha256": "6760b2b06b5adb6e5fded6e81d66a1b10d7b9cabb0315d29c5007b4a41a1e469",
+    "bytes": 1579,
+    "redistribution_license_verified": false,
+    "case_id": "2903",
+    "license_note": "Publicly linked original; redistribution license not verified. Download explicitly for local reproduction."
+  },
+  {
+    "issue_url": "https://github.com/Kozea/WeasyPrint/issues/2873",
+    "source_url": "https://github.com/user-attachments/files/30697840/test.html",
+    "author": "Binarus",
+    "kind": "original_reporter_attachment",
+    "reported_problem": "multi-page table border rendering; logical tag continuity separately measured here",
+    "use": "second independent original positive",
+    "sha256": "333729c7c88ee651d4ce033d85a5c8da9eedf20bd2997645ba8e2df25c53bc14",
+    "bytes": 7723,
+    "redistribution_license_verified": false,
+    "case_id": "2873",
+    "license_note": "Publicly linked original; redistribution license not verified. Download explicitly for local reproduction."
+  },
+  {
+    "issue_url": "https://github.com/Kozea/WeasyPrint/issues/2876",
+    "source_url": "https://github.com/user-attachments/files/30736842/temp.html",
+    "author": "Binarus",
+    "kind": "original_reporter_attachment",
+    "reported_problem": "multi-page table header border styling",
+    "use": "same-author regression; current local render two pages and one Table, no merges",
+    "sha256": "1cab422024e95522455627e7d8ddd53168b7d443b74c7786e958a7abf3da6e03",
+    "bytes": 6001,
+    "redistribution_license_verified": false,
+    "case_id": "2876",
+    "license_note": "Publicly linked original; redistribution license not verified. Download explicitly for local reproduction."
+  },
+  {
+    "issue_url": "https://github.com/Kozea/WeasyPrint/issues/2726",
+    "source_url": "https://github.com/user-attachments/files/26610618/order-form-printable.html",
+    "author": "1fifoto",
+    "kind": "original_reporter_attachment",
+    "reported_problem": "fillable form accessibility and tagged tables",
+    "use": "unsupported context; repair refuses",
+    "sha256": "d71e99815d78faae9316cfee042b08dd761fe01c937353e3029b3a0cc6e477b0",
+    "bytes": 34411,
+    "redistribution_license_verified": false,
+    "case_id": "2726",
+    "license_note": "Publicly linked original; redistribution license not verified. Download explicitly for local reproduction."
+  },
+  {
+    "issue_url": "https://github.com/Kozea/WeasyPrint/issues/2874",
+    "source_url": "https://github.com/Kozea/WeasyPrint/issues/2874",
+    "author": "jmuheim",
+    "kind": "first original HTML fenced block copied from issue body",
+    "reported_problem": "nested list wrong reading order, already fixed in current renderer",
+    "use": "native-correct regression; no merges",
+    "sha256": "70f0c791f76715b1f3f1ab57f2309ac9dee92051ff29f1b80918eb5228983f63",
+    "bytes": 252,
+    "redistribution_license_verified": false,
+    "case_id": "2874",
+    "license_note": "Publicly linked original; redistribution license not verified. Download explicitly for local reproduction."
+  }
+]

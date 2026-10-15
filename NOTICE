@@ -1,0 +1,13 @@
+Weasy Continuity is an independent adapter, not an official WeasyPrint release.
+
+The core imports the pinned WeasyPrint70.0 renderer and pypdf6.20.1. It does not
+vendor their implementations. WeasyPrint is BSD3-Clause licensed, copyright
+2011–2021 Simon Sapin and contributors. pypdf is BSD licensed; see the licenses
+shipped with the respective installed packages. Their authors do not endorse
+this adapter. An upstream patch copying or modifying WeasyPrint source must
+retain its upstream copyright, conditions and disclaimer.
+
+The source DOM instrumentation, graph transformation and CLI in this repository
+are MIT licensed. PyMuPDF is not a runtime or distribution dependency. Pixel
+comparisons in external development evidence used separately installed tools.
+Public issue attachment inputs are not redistributed in this repository.

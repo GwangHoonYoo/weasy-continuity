@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "weasy-continuity"
+version = "0.1.0"
+description = "Preserve WeasyPrint70 pagination while joining source-identical PDF structure fragments."
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+authors = [{name = "GwangHoonYoo"}]
+dependencies = ["weasyprint==70.0", "pypdf==6.20.1"]
+keywords = ["weasyprint", "tagged-pdf", "accessibility", "pdf", "cli"]
+
+[project.scripts]
+weasy-continuity = "weasy_continuity.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/weasy_continuity"]
