@@ -11,7 +11,7 @@ WeasyPrint 70 can split one source table or list into separate structure element
 | #2903 | 2 tables, 2 lists | 1 table with 24 data rows, 1 list with 30 items | 3 pages, 144 dpi pixels, visible text and links |
 | #2873 | 2 table fragments | 1 table, 5 column headers | 2 pages, 144 dpi pixels, visible text and links |
 
-The actual OpenDataLoader 2.5.13 roundtrip reads each table's column header once. It also emits some repeated artifact text as separate paragraphs outside the table. This consumer limitation remains recorded in the [validation scope](docs/validation.md); full screenreader behavior requires separate testing.
+OpenDataLoader 2.5.17 reads each table's column headers once and excludes the repeated artifact text on these two verified PDFs. The earlier 2.5.13 result and exact input hashes remain in the [versioned validation scope](docs/validation.md). Full screenreader behavior and other documents require separate testing.
 
 ## Quick start from a checkout
 

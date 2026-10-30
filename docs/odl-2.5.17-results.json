@@ -1,0 +1,57 @@
+{
+  "observed_at": "2026-10-30T12:06:38.234693+00:00",
+  "reader_version": "2.5.17",
+  "java": "17.0.19",
+  "python": "3.12.13",
+  "pypdf": "6.20.1",
+  "fix_commit": "24ae48555fad3754802b3b8d12bbb6ddd88c79c0",
+  "fix_is_ancestor_of_release": true,
+  "diagnostic_fixtures": [
+    {
+      "variant": "bare",
+      "sha256": "0301dbf406ed30dbc8ef1d403b53c978d47e627149db52d61c3dae2807662ae7",
+      "markdown": "BODY_SENTINEL\n\n",
+      "body_in_output": true,
+      "artifact_in_output": false
+    },
+    {
+      "variant": "pagination",
+      "sha256": "7385c850c4e9ad13fd916423c91f2c81a668c70c58f78ead97c586bd580b9901",
+      "markdown": "BODY_SENTINEL\n\n",
+      "body_in_output": true,
+      "artifact_in_output": false
+    }
+  ],
+  "real_input_consumer_cases": [
+    {
+      "case": "2903",
+      "source_sha256": "6760b2b06b5adb6e5fded6e81d66a1b10d7b9cabb0315d29c5007b4a41a1e469",
+      "pdf_sha256": "7262e976548af3b6309b490ec42be43d6342f7172c29e70aaffe40ff806395b8",
+      "table_lines": 26,
+      "header": "|No.|Name|",
+      "outside_nonlist_paragraphs": [],
+      "data_rows": 24,
+      "list_items": 30
+    },
+    {
+      "case": "2873",
+      "source_sha256": "333729c7c88ee651d4ce033d85a5c8da9eedf20bd2997645ba8e2df25c53bc14",
+      "pdf_sha256": "c4e5d9f07aef49333d116cb605fb9edc6e1b62e1b117642560c034417d618a21",
+      "table_lines": 34,
+      "header": "|Order Line|Qty.|Description / Service IDs|Monthly fee |Setup fee |",
+      "outside_nonlist_paragraphs": [
+        "Order number:",
+        "11714",
+        "Order date:",
+        "2026-08-04 07:43:58 UTC",
+        "Ordered services:"
+      ],
+      "data_rows": null,
+      "list_items": null
+    }
+  ],
+  "scope": "New released reader executed against retained hash-matching real-input repaired PDFs. No new product render, pixel/validator recheck or screen-reader test.",
+  "screenreader_tested": false,
+  "independent_adoption_measured": false,
+  "general_pdf_compatibility_established": false
+}
